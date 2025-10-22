@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import re, sys, pathlib
 
-p = pathlib.Path("email_header.txt")
+p = pathlib.Path("headers/email_header.txt")
 if len(sys.argv) > 1: p = pathlib.Path(sys.argv[1])
 hdr = p.read_text(errors="ignore")
 
