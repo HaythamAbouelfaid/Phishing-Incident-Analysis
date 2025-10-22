@@ -1,5 +1,7 @@
 # LCPS Gift Card Phishing Incident Analysis
 
+![Poster](Phishing_Project_Poster.png)
+
 ## Overview
 This project documents a real-world phishing attempt targeting my LCPS (Loudoun County Public Schools) email account. 
 The attacker impersonated a supervisor ("Kevin Lewis") using a fake Outlook address and attempted to initiate a gift card scam via email and SMS. 
@@ -16,6 +18,13 @@ The purpose of this project was to analyze the phishing attempt, perform a techn
 - MXToolbox (Header Analysis)
 - Canva / PowerPoint (Poster Design)
 - Python (for redacting and documenting evidence)
+
+## Framework Mapping
+
+- NIST SP 800-61: Detection & Analysis → Containment → Reporting
+- MITRE ATT&CK (Enterprise):
+    * T1566 Phishing (initial access)
+    * T1656 Financial Theft (via gift cards / social engineering)
 
 ## Key Findings
 - The email originated from a non-LCPS Outlook domain.
