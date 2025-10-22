@@ -1,6 +1,6 @@
 # LCPS Gift Card Phishing Incident Analysis
 
-![Poster](Phishing_Project_Poster.png)
+![Poster](/report/Phishing_Project_Poster.png)
 
 ## Overview
 This project documents a real-world phishing attempt targeting my LCPS (Loudoun County Public Schools) email account. 
